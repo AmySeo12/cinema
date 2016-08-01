@@ -6,6 +6,7 @@ body {
 .fixed {
 	position: fixed;
 	width: 100%;
+	opacity: 0.95;
 }
 .container {
 	background: linear-gradient( 90deg, white, #F5F5F5);
@@ -26,13 +27,11 @@ body {
   	float: right;
   	margin-top: 10px;
   }
-  fieldset {
-  	border: 1.5px solid #DBDBDB;
-  	padding: 8px;
-  }
   input {
-  	border: 0px solid black;
+  	border: 1px solid #BCBCBC;
   	color: #DBDBDB;
+  	height: 35px;
+  	padding: 0 0 0 1em;
   }
   i {
   	color: #DBDBDB;
@@ -145,23 +144,20 @@ video {
 }
 .plomo {
 	font-size: 25px;
-	color: #D1D1D1;
-	padding-bottom: 10px; 
 }
 .txt-negro{
 	font-size: 35px;
-	padding-bottom: 10px;
 }
-.text-plomo {
+.text-plomo, .pie {
 	color: #DADCDE;
 }
 .derecho {
 	font-size: 12px;
 }
-.plomito {
+.plomito, .plomo {
 	color: #D1D1D1;
 }
-.sangria{
+.sangria, .txt-negro, .plomo{
 	padding-bottom: 10px;
 }
 .arriba {
@@ -177,5 +173,4 @@ video {
 }
 .pie{
 	background: #F3F3F3;
-	color: #DADCDE;
 }
